@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sisters.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.sisters.ui.gallery.RegionsFragment"
+        android:label="Regions"
+        tools:layout="@layout/fragment_regions" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.sisters.ui.slideshow.ContactFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/founders"
+        android:name="com.example.sisters.FoundersFragment"
+        android:label="Founders"
+        tools:layout="@layout/fragment_founders" />
+    <fragment
+        android:id="@+id/govt"
+        android:name="com.example.sisters.GeneralFragment"
+        android:label="General Government"
+        tools:layout="@layout/fragment_general" />
+    <fragment
+        android:id="@+id/mission"
+        android:name="com.example.sisters.MissionFragment"
+        android:label="Our Mission"
+        tools:layout="@layout/fragment_mission" />
+    <fragment
+        android:id="@+id/superior"
+        android:name="com.example.sisters.SuperiorFragment"
+        android:label="Superior Generals"
+        tools:layout="@layout/fragment_superior" />
+    <fragment
+        android:id="@+id/we"
+        android:name="com.example.sisters.WhoFragment"
+        android:label="Who are we"
+        tools:layout="@layout/fragment_who" />
+    <fragment
+        android:id="@+id/formation"
+        android:name="com.example.sisters.VocationFragment"
+        android:label="Vocation and formation"
+        tools:layout="@layout/fragment_vocation" />
+</navigation>

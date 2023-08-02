@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/regions"
+            android:title="@string/regions" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/contact"
+            android:title="@string/contact" />
+    </group>
+
+    <item
+        android:title="@string/about_us"
+        />
+    <item
+android:id="@+id/superior"
+        android:icon="@drawable/general"
+        android:title="@string/superior_general_s_message" />
+
+    <item
+        android:id="@+id/we"
+        android:icon="@drawable/we"
+        android:title="@string/who_are_we" />
+
+    <item
+        android:id="@+id/founders"
+        android:icon="@drawable/found"
+        android:title="@string/founders" />
+    <item
+        android:id="@+id/govt"
+        android:icon="@drawable/general"
+        android:title="@string/general_government" />
+
+
+
+    <item
+        android:title="@string/be_an_ihmr"
+
+        />
+
+
+    <item
+        android:id="@+id/formation"
+        android:icon="@drawable/founders"
+        android:title="@string/vocation_and_formation" />
+
+
+    <item
+        android:title="@string/what_we_do"
+        />
+
+    <item
+        android:id="@+id/mission"
+        android:icon="@drawable/mission"
+        android:title="@string/our_mission" />
+
+
+</menu>

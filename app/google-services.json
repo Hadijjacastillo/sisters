@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436982371378",
+    "project_id": "sisters-1b5ac",
+    "storage_bucket": "sisters-1b5ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436982371378:android:5fd6e6bb32c79767dd582b",
+        "android_client_info": {
+          "package_name": "com.example.sisters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436982371378-4ofsnafm7vrjllu9ph9bsqtj7is9u5br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQQA4qhWf3ESmimGRc23T2ZOP_eFk41ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436982371378-4ofsnafm7vrjllu9ph9bsqtj7is9u5br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
